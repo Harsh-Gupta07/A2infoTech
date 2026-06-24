@@ -1,0 +1,75 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 */
+/* Hallmark · macrostructure: Capability Matrix · tone: premium technology partner · anchor hue: logo teal */
+:root {
+  --color-paper: oklch(99% 0.006 250);
+  --color-paper-soft: #f5fbfb;
+  --color-paper-blue: #e8fafa;
+  --color-ink: #08262a;
+  --color-ink-soft: #35575b;
+  --color-muted: #6f8b8e;
+  --color-rule: #d7e9ea;
+  --color-accent: #25bfc4;
+  --color-accent-strong: #0a8f98;
+  --color-accent-soft: #e3f9fa;
+  --color-cyan: #42c4c8;
+  --color-violet: #199fa8;
+  --color-amber: #68cfd1;
+  --color-green: #2db5b8;
+  --color-white: oklch(100% 0 0);
+  --color-shadow: rgb(37 191 196 / 14%);
+
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-editorial: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-hook: "Lobster Two", cursive;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-md: 1.12rem;
+  --text-lg: 1.35rem;
+  --text-xl: 1.8rem;
+  --text-2xl: 2.4rem;
+  --text-display-s: clamp(2.3rem, 6vw, 4.6rem);
+  --text-display: clamp(3rem, 8vw, 6.6rem);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --rule-thin: 1px;
+  --rule-bold: 2px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 160ms;
+  --dur-med: 260ms;
+  --dur-slow: 620ms;
+}
+
+:root[data-theme="dark"] {
+  --color-paper: #06191b;
+  --color-paper-soft: #0b2427;
+  --color-paper-blue: #103438;
+  --color-ink: #f2fbfb;
+  --color-ink-soft: #c5e2e4;
+  --color-muted: #91b7bb;
+  --color-rule: #245156;
+  --color-accent: #42c4c8;
+  --color-accent-strong: #75dadd;
+  --color-accent-soft: #123c40;
+  --color-shadow: rgb(4 38 42 / 46%);
+}
+
+
