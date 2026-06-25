@@ -1,7 +1,7 @@
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 */
 /* Hallmark · macrostructure: Capability Matrix · tone: premium technology partner · anchor hue: logo teal */
 :root {
-  --color-paper: oklch(99% 0.006 250);
+  --color-paper: #f9fcff;
   --color-paper-soft: #f5fbfb;
   --color-paper-blue: #e8fafa;
   --color-ink: #08262a;
@@ -15,8 +15,8 @@
   --color-violet: #199fa8;
   --color-amber: #68cfd1;
   --color-green: #2db5b8;
-  --color-white: oklch(100% 0 0);
-  --color-shadow: rgb(37 191 196 / 14%);
+  --color-white: #ffffff;
+  --color-shadow: #25bfc424;
 
   --font-display: "Sora", system-ui, sans-serif;
   --font-editorial: "Bricolage Grotesque", system-ui, sans-serif;
@@ -69,7 +69,7 @@
   --color-accent: #42c4c8;
   --color-accent-strong: #75dadd;
   --color-accent-soft: #123c40;
-  --color-shadow: rgb(4 38 42 / 46%);
+  --color-shadow: #04262a75;
 }
 
 
