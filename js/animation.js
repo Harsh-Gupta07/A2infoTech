@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       duration: 0.01,
       onComplete: () => {
-        document.querySelectorAll(".hero .reveal, .page-hero .reveal").forEach((item, index) => {
+        document.querySelectorAll(".hero .reveal, .page-hero .reveal, .home-hero .reveal").forEach((item, index) => {
           gsap.to(item, {
             opacity: 1,
             y: 0,
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     revealItems.forEach((item) => {
-      if (item.closest(".hero") || item.closest(".page-hero")) return;
+      if (item.closest(".hero") || item.closest(".page-hero") || item.closest(".home-hero")) return;
       ScrollTrigger.create({
         trigger: item,
         start: "top 88%",
