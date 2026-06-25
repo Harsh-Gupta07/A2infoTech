@@ -11,10 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.setTimeout(finishLoader, 4200);
   }
 
-  const storedTheme = localStorage.getItem("a2-theme");
-  const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const initialTheme = storedTheme || (systemPrefersDark ? "dark" : "light");
+  const initialTheme = "light";
   document.documentElement.dataset.theme = initialTheme;
+  localStorage.setItem("a2-theme", initialTheme);
   themeToggle?.setAttribute("aria-pressed", String(initialTheme === "dark"));
 
   const updateHeader = () => {

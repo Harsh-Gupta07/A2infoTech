@@ -1,4 +1,4 @@
-@import url("./tokens.css?v=20260625-4");
+@import url("./tokens.css?v=20260625-5");
 
 * {
   box-sizing: border-box;
@@ -1495,7 +1495,7 @@ h3 {
 }
 
 :root[data-theme="dark"] .site-header {
-  background: #040d1ce0;
+  background: #ffffffe0;
 }
 
 :root[data-theme="dark"] .nav-links,
@@ -1514,14 +1514,14 @@ h3 {
 :root[data-theme="dark"] .field input,
 :root[data-theme="dark"] .field textarea,
 :root[data-theme="dark"] .field select {
-  background-color: #0e1b2de0;
+  background-color: #ffffffe0;
   color: var(--color-ink);
 }
 
 :root[data-theme="dark"] .hero,
 :root[data-theme="dark"] .page-hero {
   background:
-    radial-gradient(circle at 80% 8%, #172e5db3, #00000000 28rem),
+    radial-gradient(circle at 80% 8%, var(--color-accent-soft), #00000000 28rem),
     linear-gradient(105deg, var(--color-paper) 0 55%, var(--color-paper-blue) 55% 100%);
 }
 
@@ -1532,28 +1532,28 @@ h3 {
 :root[data-theme="dark"] .process-reference,
 :root[data-theme="dark"] .portfolio-reference {
   background:
-    radial-gradient(circle at 50% 0%, #172e5d57, #00000000 34rem),
+    radial-gradient(circle at 50% 0%, var(--color-accent-soft), #00000000 34rem),
     var(--color-paper-soft);
 }
 
 :root[data-theme="dark"] .tech-card:hover,
 :root[data-theme="dark"] .tech-card.is-hot {
-  background: linear-gradient(180deg, #11223a, var(--color-accent-soft));
+  background: linear-gradient(180deg, var(--color-white), var(--color-accent-soft));
 }
 
 :root[data-theme="dark"] .btn-secondary {
-  background: #0e1b2d;
+  background: var(--color-white);
   color: var(--color-ink);
 }
 
 :root[data-theme="dark"] .tech-mark.next {
   color: var(--color-ink);
   border-color: var(--color-ink);
-  background: #0a1628;
+  background: var(--color-white);
 }
 
 :root[data-theme="dark"] .project-screen {
-  background: linear-gradient(135deg, var(--project-color), #142237);
+  background: linear-gradient(135deg, var(--project-color), var(--color-paper-blue));
 }
 
 .visually-hidden {
