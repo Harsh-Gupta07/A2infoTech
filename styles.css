@@ -1,4 +1,4 @@
-@import url("./tokens.css?v=20260625-3");
+@import url("./tokens.css?v=20260625-4");
 
 * {
   box-sizing: border-box;
@@ -1483,8 +1483,8 @@ h3 {
 }
 
 :root.animations-ready .reveal {
-  opacity: 0;
-  transform: translateY(26px);
+  opacity: 1;
+  transform: none;
 }
 
 :root.animations-ready .reveal.is-visible,
